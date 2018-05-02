@@ -1,0 +1,62 @@
+$globalFont: 10px;
+$width: 100%;
+$maxWidth: 1200px;
+$minWidth: 320px;
+$font: 'Roboto', sans-serif;
+$fontWeight: 300;
+
+html {
+  font-size: $globalFont;
+  font-family: $font;
+  font-weight: $fontWeight;
+  user-select: none;
+}
+
+html,
+body,
+#root,
+.select,
+.trade {
+  width: $width;
+  height: 100%;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.select{
+  display: flex;
+  flex-direction: column;
+  background-size: cover;
+  justify-content: center;
+  align-items: center;
+  background-repeat: no-repeat;
+}
+
+.trade {
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.container {
+  width: $width;
+  max-width: $maxWidth;
+  min-width: $minWidth;
+  margin: 0 auto;
+  transition: all 1s;
+}
+
+.mobile-container {
+  width: $width;
+  max-width: $maxWidth;
+  min-width: $minWidth;
+  margin: 0 auto;
+  height: 100vh;
+}
+
+.anim {
+  transform: translate(0, -600px);
+  opacity: 0;
+}

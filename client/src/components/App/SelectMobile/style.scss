@@ -1,0 +1,18 @@
+.select-mobile {
+  background-color: #f3f2da;
+  width: 100%;
+  min-height: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  &__title {
+    padding-top: 3.4rem;
+    font-size: 3.6rem;
+    text-align: center;
+    margin: 0 0 0 3rem;
+  }
+}
+
+.trade-mobile-bg {
+  width: 100%;
+  height: auto;
+}

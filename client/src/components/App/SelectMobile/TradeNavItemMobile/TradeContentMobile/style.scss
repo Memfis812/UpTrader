@@ -1,0 +1,41 @@
+.trade-content-mobile {
+  font-size: 1.8rem;
+  line-height: 2.4rem;
+  color: #383838;
+  padding: 1.5rem;
+  &__title {
+    margin: 2rem 0 3rem 0;
+  }
+  &__list-title {
+    font-size: 2.4rem;
+    margin-bottom: 4rem;
+  }
+  &__list-counter {
+    color: #00b0a2;
+    font-size: 3.2rem;
+    position: absolute;
+    left: -3.7rem;
+    &_center {
+      top: 1.1rem;
+    }
+  }
+  &__list-item {
+    margin: 0 0 2rem 4rem;
+    position: relative;
+  }
+  &__next-btn {
+    background-color: #00b0a2;
+    color: #ffff;
+    border: none;
+    font-weight: 500;
+    padding: 1.5rem 2.8rem;
+    border-radius: 0.5rem;
+    margin-top: 2.4rem;
+    &:focus {
+      outline: none;
+    }
+    &:hover {
+      cursor: pointer;
+    }
+  }
+}

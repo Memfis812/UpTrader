@@ -1,0 +1,21 @@
+.nav-item-mobile {
+  padding: 2rem 2rem 0 2rem;
+  &__link {
+    text-decoration: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 2.1rem;
+    background-color: #f9f7f5;
+    align-items: center;
+    color: #383838;
+    font-size: 1.914rem;
+  }
+  &__icon {
+    display: flex;
+    align-items: center;
+  }
+  &__icon img {
+    margin-right: 2.1rem;
+  }
+}
